@@ -25,6 +25,10 @@
 - 检测到 `ChineseSimplified.isl` 时，自动使用中文安装界面
 - 未检测到时，自动回退为默认英文界面
 
+安装包内容：
+- 主程序 `SportsCounter.exe`
+- 用户手册 `docs\USER_MANUAL_ZH.md`（安装后在开始菜单可直接打开）
+
 ## 数据目录
 
 运行数据保存在：
