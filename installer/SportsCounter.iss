@@ -36,9 +36,11 @@ Name: "desktopicon"; Description: "创建桌面快捷方式"; GroupDescription: 
 
 [Files]
 Source: "..\dist\SportsCounter.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\docs\USER_MANUAL_ZH.md"; DestDir: "{app}\docs"; Flags: ignoreversion
 
 [Icons]
 Name: "{autoprograms}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"
+Name: "{autoprograms}\{#MyAppName}\用户手册"; Filename: "{app}\docs\USER_MANUAL_ZH.md"
 Name: "{autodesktop}\{#MyAppName}"; Filename: "{app}\{#MyAppExeName}"; Tasks: desktopicon
 
 [Run]
